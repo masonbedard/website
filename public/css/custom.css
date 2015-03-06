@@ -1,0 +1,165 @@
+html {
+  background: url('../images/background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
+  padding: 40px;
+}
+
+.header {
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  background-color: #333333;
+  text-align: center;
+  color: #1abc9c;
+  padding-top: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.tile {
+  height: 500px;
+  width: 500px;
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  left: 0;
+  right: 0;
+  margin: 30px auto auto auto;
+  transition: padding .2s;
+  padding: 20px;
+}
+.tile:hover {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.balltapapp {
+  content: url('../images/balltapapp.png');
+}
+
+.balltapapp-info {
+  content: url('../images/balltapapp-info.png');
+}
+
+.freshmelodies {
+  content: url('../images/freshmelodies.png');
+}
+
+.freshmelodies-info {
+  content: url('../images/freshmelodies-info.png');
+}
+
+.bltorrent {
+  content: url('../images/bltorrent.png');
+}
+
+.bltorrent-info {
+  content: url('../images/bltorrent-info.png');
+}
+
+.questions {
+  content: url('../images/questions.png');
+}
+
+.questions-info {
+  content: url('../images/questions-info.png');
+}
+
+.chat {
+  content: url('../images/chat.png');
+}
+
+.chat-info {
+  content: url('../images/chat-info.png');
+}
+
+.info-tile {
+  height: 250px;
+  width: 500px;
+  background-color: #333333;
+  left: 0;
+  right: 0;
+  margin: 30px auto auto auto;
+  padding: 20px;
+  transition: padding .2s;
+}
+
+.info-tile:hover {
+  padding: 5px;
+}
+
+.info {
+  width: 500px;
+  background-color: #333333;
+  left: 0;
+  right: 0;
+  margin: 30px auto auto auto;
+  padding: 20px;
+  color: white;
+}
+
+.resume {
+  width: 800px;
+  background-color: #333333;
+  left: 0;
+  right: 0;
+  margin: 30px auto auto auto;
+  padding: 20px;
+  color: white;
+}
+
+#page_1 {position:relative; overflow: hidden;margin: 48px 0px 69px 48px;padding: 0px;border: none;width: 768px;height: 939px;}
+
+#page_1 #dimg1 {position:absolute;top:87px;left:0px;z-index:1;width:12px;height:852px;}
+#page_1 #dimg1 #img1 {width:12px;height:852px;}
+
+
+
+/** For resume **/
+
+#email {
+  color: white;
+}
+
+.ft0{font: bold 24px 'Century Gothic';line-height: 28px;}
+.ft1{font: bold 12px 'Century Gothic';line-height: 16px;}
+.ft2{font: bold 16px 'Century Gothic';line-height: 19px;}
+.ft3{font: 13px 'Century Gothic';line-height: 17px;}
+.ft4{font: 10px 'Symbol';line-height: 12px;}
+.ft5{font: 13px 'Century Gothic';margin-left: 18px;line-height: 17px;}
+.ft6{font: bold 13px 'Century Gothic';line-height: 16px;}
+.ft7{font: 13px 'Century Gothic';margin-left: 18px;line-height: 20px;}
+.ft8{font: 13px 'Century Gothic';line-height: 20px;}
+.ft9{font: bold 13px 'Century Gothic';margin-left: 18px;line-height: 16px;}
+.p0{text-align: left;margin-top: 0px;margin-bottom: 0px;}
+.p1{text-align: left;margin-top: 10px;margin-bottom: 0px;}
+.p2{text-align: left;padding-left: 35px;margin-top: 17px;margin-bottom: 0px;}
+.p3{text-align: left;padding-left: 35px;padding-right: 59px;margin-top: 0px;margin-bottom: 0px;}
+.p4{text-align: left;padding-left: 35px;margin-top: 4px;margin-bottom: 0px;}
+.p5{text-align: justify;padding-left: 59px;margin-top: 1px;margin-bottom: 0px;}
+.p6{text-align: justify;padding-left: 59px;margin-top: 3px;margin-bottom: 0px;}
+.p7{text-align: left;padding-left: 35px;margin-top: 26px;margin-bottom: 0px;}
+.p8{text-align: left;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p9{text-align: justify;padding-left: 59px;margin-top: 4px;margin-bottom: 0px;}
+.p10{text-align: justify;padding-left: 59px;margin-top: 5px;margin-bottom: 0px;}
+.p11{text-align: left;padding-left: 35px;margin-top: 22px;margin-bottom: 0px;}
+.p12{text-align: left;padding-left: 83px;padding-right: 86px;margin-top: 3px;margin-bottom: 0px;text-indent: -24px;}
+.td0{padding: 0px;margin: 0px;width: 384px;vertical-align: bottom;}
+.td1{padding: 0px;margin: 0px;width: 154px;vertical-align: bottom;}
+.td2{padding: 0px;margin: 0px;width: 181px;vertical-align: bottom;}
+.td3{padding: 0px;margin: 0px;width: 280px;vertical-align: bottom;}
+.tr0{height: 17px;}
+.tr1{height: 16px;}
+.t0{width: 538px;margin-left: 35px;margin-top: 13px;font: bold 13px 'Century Gothic';}
+.t1{width: 565px;margin-left: 35px;margin-top: 3px;font: bold 13px 'Century Gothic';}
+.t2{width: 538px;margin-left: 35px;margin-top: 3px;font: bold 13px 'Century Gothic';}
+.t3{width: 664px;margin-left: 35px;margin-top: 14px;font: bold 13px 'Century Gothic';}

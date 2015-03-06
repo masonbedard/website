@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Chris Terefinko About Me">
+    <title>About (Me)</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <% include partials/ga %>
+    <script>
+      az="abcdefghijklmnopqrstuvwxyzabcdefghijklmABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM"
+      num="ABCDEFGHIJ0123456789"
+      function d(text) {
+          for (var r = "", i = 0; i < text.length; i++) {
+            var chr = text.charAt(i);
+            var position = az.indexOf(chr);
+            if (position > -1) {
+              chr = az.charAt(position + 13);
+            }
+            r += chr;
+          }
+          return r;
+        }
+        function c(el){
+          var converted = d(el.getAttribute("data"));
+          el.innerHTML = converted;
+          el.href = "mailto:"+converted;
+        }
+        function xx(text) {
+          for (var r = "", i = 0; i < text.length; i++) {
+            var chr = text.charAt(i);
+            var position = num.indexOf(chr);
+            if (position > -1) {
+              chr = num.charAt(position + 10);
+            }
+            r += chr;
+          }
+          return r;
+        }
+        function y(el) {
+          var converted = xx(el.getAttribute("data"));
+          el.innerHTML = converted;
+        }
+    </script>
+    
+  </head>
+  <body>
+    <% include partials/navbar %>
+
+    <div class="container">
+      <div class="header">About Me</div>
+      <div class="resume">
+        <DIV id="page_1">
+        <DIV id="dimg1">
+        <IMG src="images/resumebar.png" id="img1">
+        </DIV>
+
+
+        <P class="p0 ft0">Chris Terefinko</P>
+        <P class="p0 ft1">Phone: <span id="phone:" data="(EIE) FFE-CFJJ" onmouseover="y(this)">(EIE) FFE-CFJJ</span> E-Mail: <a id="email" data="pgrersvaxb@tznvy.pbz" onmouseover="c(this)" href="mailto:">pgrersvaxb@tznvy.pbz</a></P>
+        <P class="p2 ft2">Personal Profile</P>
+        <P class="p3 ft3">I am currently a senior at the University of Maryland studying computer science. Right now, I am pursuing a B.S. degree in Computer Science. I am an extremely motivated person and I believe that is why I’m where I’m at today. I have a passion for computer science and would like to continue to develop my abilities.</P>
+        <P class="p4 ft2">Awards</P>
+        <P class="p5 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Eagle Scout</SPAN></P>
+        <P class="p6 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Dean’s List: Fall 2011 - Present</SPAN></P>
+        <P class="p7 ft2">Experience</P>
+        <TABLE cellpadding=0 cellspacing=0 class="t0">
+        <TR>
+          <TD class="tr0 td0"><P class="p8 ft6">Software Development Engineer Intern at Amazon</P></TD>
+          <TD class="tr0 td1"><P class="p8 ft6">May 2014 – August 2014</P></TD>
+        </TR>
+        </TABLE>
+        <P class="p9 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Worked on the AmazonSupply team.</SPAN></P>
+        <P class="p6 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Developed the hybrid-page layout that can be seen on AmazonSupply.com today.</SPAN></P>
+        <P class="p9 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Refactored outdated code to a usable format that will be used across several teams.</SPAN></P>
+        <P class="p6 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Made many bug fixes for the production environment of AmazonSupply.com.</SPAN></P>
+        <TABLE cellpadding=0 cellspacing=0 class="t0">
+        <TR>
+          <TD class="tr0 td0"><P class="p8 ft6">Financial Information Solutions Intern at PPL Corp.</P></TD>
+          <TD class="tr0 td1"><P class="p8 ft6">May 2013 – August 2013</P></TD>
+        </TR>
+        </TABLE>
+        <P class="p9 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Worked on the solutions team for financial applications.</SPAN></P>
+        <P class="p6 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Troubleshoot existing code when problems occurred.</SPAN></P>
+        <P class="p9 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Developed a replacement emailing software to ensure delivery without interrupting programs.</SPAN></P>
+        <P class="p6 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Developed Linux scripts to ensure automatically recover from errors.</SPAN></P>
+        <P class="p9 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Became proficient with C#.</SPAN></P>
+        <TABLE cellpadding=0 cellspacing=0 class="t1">
+        <TR>
+          <TD class="tr1 td0"><P class="p8 ft6">Programmer at CATT Lab</P></TD>
+          <TD class="tr1 td2"><P class="p8 ft6">September 2012 – May 2013</P></TD>
+        </TR>
+        </TABLE>
+        <P class="p10 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Worked on web applications written using PHP or Python.</SPAN></P>
+        <P class="p6 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Created file portal for users to download traffic data.</SPAN></P>
+        <P class="p6 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Worked with a web development team to maintain the site and make requested improvements.</SPAN></P>
+        <P class="p9 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Became proficient with HTML, JavaScript, and CSS.</SPAN></P>
+        <TABLE cellpadding=0 cellspacing=0 class="t2">
+        <TR>
+          <TD class="tr1 td0"><P class="p8 ft6">I.T. Intern at B. Braun Medical</P></TD>
+          <TD class="tr1 td1"><P class="p8 ft6">May 2012 – August 2012</P></TD>
+        </TR>
+        </TABLE>
+        <P class="p10 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Worked in the Information Technology Department.</SPAN></P>
+        <P class="p6 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">I was part of the Windows 7 upgrade project.</SPAN></P>
+        <P class="p6 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Helped manage users machines by utilizing Windows Server Update Services and McAfee ePO.</SPAN></P>
+        <P class="p9 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Learned how to work and communicate in a corporate environment.</SPAN></P>
+        <P class="p11 ft2">Education</P>
+        <TABLE cellpadding=0 cellspacing=0 class="t3">
+        <TR>
+          <TD class="tr0 td0"><P class="p8 ft6">University of Maryland, College Park</P></TD>
+          <TD class="tr0 td3"><P class="p8 ft6">August 2011 – Present (Expected May 2015)</P></TD>
+        </TR>
+        </TABLE>
+        <P class="p9 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Working toward a B.S. in Computer Science and a minor in astronomy.</SPAN></P>
+        <P class="p12 ft8"><SPAN class="ft4">•</SPAN><SPAN class="ft7">Previous and current computer science classes: Object Orient Programming I & II, Intro to Computer Systems, Discrete Structures, Organization of Programming Languages, Algorithms, Computer Systems Architecture, and Computer Networks.</SPAN></P>
+        <P class="p5 ft3"><SPAN class="ft4">•</SPAN><SPAN class="ft5">Current Cumulative GPA: 3.64</SPAN></P>
+        </DIV>
+      </div>
+    </div>
+  </body>
+<html>
