@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple webserver for my website.",
   "main": "app.js",
-  "author": "Chris Terefinko",
+  "author": "Mason Bedard",
   "license": "MIT",
   "dependencies": {
     "ejs": "0.8.5",
